@@ -1,0 +1,6 @@
+{
+  "api": "http://${SERVER_NAME}:${SERVER_PORT}",
+  "production": "${PRODUCTION_MODE}",
+  "errorRoute": "${ERROR_ROUTE}",
+  "redirectionUrl": "${REDIRECTION_URL}"
+}
