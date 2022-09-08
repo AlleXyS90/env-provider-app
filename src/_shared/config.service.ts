@@ -15,6 +15,9 @@ export class ConfigService {
       .get<AppConfig | undefined>('./app-config.json')
       .toPromise()
       .then(config => {
+        console.log('config service initialization');
+        console.log(config);
+        
         if (typeof config !== 'undefined') {
           this.configuration = config;
         }
